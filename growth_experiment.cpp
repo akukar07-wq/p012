@@ -1,4 +1,4 @@
-GrowthStats measure_growth(std::size_t n, double factor) {
+GrowthStats measure_growth(double factor, std::size_t n) {
     double oldFactor = Vector<int>::growth_factor;
     Vector<int>::growth_factor = factor;
 
